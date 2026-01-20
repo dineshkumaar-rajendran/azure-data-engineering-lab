@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVault_Dinesh",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://dinesh-db.vault.azure.net/"
+		}
+	}
+}
