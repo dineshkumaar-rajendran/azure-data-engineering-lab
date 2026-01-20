@@ -9,13 +9,21 @@ interview-ready implementations.
 
 ## Repository Structure
 
-adf/         → Azure Data Factory pipelines and ingestion patterns  
-pyspark/     → PySpark transformation exercises  
-databricks/  → Databricks-based Spark pipelines  
-sql/         → Analytical and transformation queries  
+adf/
+├── Azure Data Factory pipelines
+├── Ingestion and incremental load patterns
 
-Each folder contains multiple exercises, and each exercise includes its own
-README describing the problem, approach, and outcome.
+pyspark/
+├── PySpark transformation exercises
+├── Joins, aggregations, and window functions
+
+databricks/
+├── Spark-based data pipelines
+├── Medallion architecture examples
+
+sql/
+├── Analytical queries
+├── Transformation logic
 
 ---
 
