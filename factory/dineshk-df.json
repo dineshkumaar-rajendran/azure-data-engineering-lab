@@ -1,0 +1,9 @@
+{
+	"name": "dineshk-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6afc9deb-f02c-461f-a074-f11e384b1e5b",
+		"tenantId": "1237bcd2-a8d2-497b-a788-3400df917832"
+	}
+}
