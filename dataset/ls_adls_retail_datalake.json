@@ -1,0 +1,21 @@
+{
+	"name": "ls_adls_retail_datalake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_retail_storage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
