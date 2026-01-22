@@ -130,8 +130,6 @@
 			{
 				"name": "Datrabricks NoteBook",
 				"type": "DatabricksNotebook",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Copy CustomerAddress Table",
@@ -148,6 +146,9 @@
 					"secureInput": false
 				},
 				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/dinesh@vaishnavigunge01gmail.onmicrosoft.com/E2E"
+				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
 					"type": "LinkedServiceReference"
